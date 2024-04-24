@@ -1,0 +1,29 @@
+.invite .invitation-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.invite .invitation-row .invitation-box {
+    flex: 1 1 25rem;
+    margin: 1rem;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+}
+
+.invite .invitation-row .invitation-box:hover {
+    transition: .5s ease;
+    transform: translateY(-2rem);
+}
+
+.invite .invitation-row .invitation-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
