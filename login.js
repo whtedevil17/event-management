@@ -10,7 +10,7 @@ function validateLoginForm() {
     // Check if username and password match the default values
     if (username.trim() === defaultUsername && password.trim() === defaultPassword) {
         // Redirect the user to the main page
-        window.location.href = 'main.html'; // Replace 'main.html' with the URL of the main page
+        window.location.href = 'index.html'; // Replace 'main.html' with the URL of the main page
         return false; // Prevent form submission
     } else {
         // Display an error message for incorrect credentials
